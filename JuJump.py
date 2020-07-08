@@ -34,9 +34,9 @@ class Game:
         self.clock = pg.time.Clock()
         self.screen = screen
         self.screenLength, self.screenHeight = pg.display.get_surface().get_size()
-        self.boy = pg.image.load("material/bird.png").convert_alpha()
-        self.background = pg.image.load("material/background.png").convert()
-        icon = pg.image.load("material/train.png")
+        self.boy = pg.image.load("bird.png").convert_alpha()
+        self.background = pg.image.load("background.png").convert()
+        icon = pg.image.load("train.png")
         pg.display.set_icon(icon)
         
         # Track time
